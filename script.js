@@ -1,8 +1,8 @@
 function minDate(dates) {
   //write you code here 
-  int lastIndex=dates.length-1; 
+  
    dates.sort();
-   return dates[lastIndex];
+   return dates[0];
 }
 
 // Do not change the code
